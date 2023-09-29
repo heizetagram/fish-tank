@@ -59,7 +59,7 @@ public class Test {
         System.out.printf("%nBAD %9s%n", "(4)");
     }
 
-    // nswer options
+    // Answer options
     private void answerOptions(int answer, Scanner scan) {
         switch (answer) {
             case 1 -> checkFish();
@@ -118,7 +118,7 @@ public class Test {
         }
     }
 
-    //Grade satisfaction
+    // Grade satisfaction
     private void currentWaterGrade(int answer) {
         switch (answer) {
             case 1 -> grade = Grade.PERFECT;
